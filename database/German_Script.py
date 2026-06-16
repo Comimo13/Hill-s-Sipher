@@ -1,0 +1,2 @@
+c = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜẞ'
+s = 'abcdefghijklmnopqrstuvwxyzäöüß'
