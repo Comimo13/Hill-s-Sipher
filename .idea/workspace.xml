@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed189d55-261e-4102-9ee9-7a8a6f74fc75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database/Arabic_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Bengali_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Cyrillic_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Devanagari_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/German_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Greek_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Hebrew_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Japanese_Scripts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Korean_Hangul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Latin_Script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Spanish_Script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Encryption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/cipher_key.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/cipher_key.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/ciphertext.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ciphertext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/language.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/language.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/modulusN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/modulusN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/plaintext.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/plaintext.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -48,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000890999585" />
-      <entry key="MS500" value="1.0389023198556928" />
-      <entry key="S2" value="1.444113397922128" />
-      <entry key="S5" value="1.7227987650949526" />
-      <entry key="S10" value="1.8649304212883377" />
-      <entry key="S30" value="3.514542409763028" />
-      <entry key="S60" value="8.905799190783064" />
-      <entry key="M2" value="18.854175145479303" />
-      <entry key="M5" value="34.533662432100414" />
-      <entry key="M10" value="50.05129774154214" />
-      <entry key="M15" value="64.0412869023215" />
-      <entry key="M30" value="102.61657762657501" />
-      <entry key="H1" value="163.10991415437502" />
-      <entry key="H2" value="235.80342704599812" />
-      <entry key="H4" value="298.89255126069935" />
-      <entry key="D1" value="375.9228151277074" />
-      <entry key="W1" value="392.1869493004772" />
+      <entry key="MS100" value="1.4954284754264198" />
+      <entry key="MS500" value="2.5352666883023756" />
+      <entry key="S2" value="4.9159812270265455" />
+      <entry key="S5" value="7.972183221613553" />
+      <entry key="S10" value="11.712118732872133" />
+      <entry key="S30" value="16.891831171099874" />
+      <entry key="S60" value="18.78149786424573" />
+      <entry key="M2" value="19.884431898660356" />
+      <entry key="M5" value="23.626521213540723" />
+      <entry key="M10" value="39.24201267409808" />
+      <entry key="M15" value="57.293887095204305" />
+      <entry key="M30" value="108.21705656893538" />
+      <entry key="H1" value="203.92269097970393" />
+      <entry key="H2" value="353.07074112523964" />
+      <entry key="H4" value="514.9259172139292" />
+      <entry key="D1" value="755.1382904769853" />
+      <entry key="W1" value="811.9554973670386" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.341203859553306E-90" />
-      <entry key="MS500" value="1.0604713961936181E-18" />
-      <entry key="S2" value="3.209037238133533E-5" />
-      <entry key="S5" value="0.01597592454623175" />
-      <entry key="S10" value="0.13907655700548227" />
-      <entry key="S30" value="1.625076158747793" />
-      <entry key="S60" value="5.360868890211516" />
-      <entry key="M2" value="11.784814764924684" />
-      <entry key="M5" value="21.312124315105944" />
-      <entry key="M10" value="27.83395637952095" />
-      <entry key="M15" value="31.38344183696957" />
-      <entry key="M30" value="37.03360753333472" />
-      <entry key="H1" value="42.315039411258475" />
-      <entry key="H2" value="47.09523949955521" />
-      <entry key="H4" value="50.76842517103229" />
-      <entry key="D1" value="54.98434555591962" />
-      <entry key="W1" value="55.85079225134869" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="8.585231541727786E-197" />
+      <entry key="S5" value="4.097191060054683E-79" />
+      <entry key="S10" value="8.003220040015908E-40" />
+      <entry key="S30" value="1.4224873534524197E-13" />
+      <entry key="S60" value="5.355599986770425E-7" />
+      <entry key="M2" value="0.001162102360470509" />
+      <entry key="M5" value="0.1764340332262987" />
+      <entry key="M10" value="1.2860838253356788" />
+      <entry key="M15" value="2.8940013706878354" />
+      <entry key="M30" value="8.489374298700428" />
+      <entry key="H1" value="20.16919610779664" />
+      <entry key="H2" value="37.66611864508269" />
+      <entry key="H4" value="55.08375493769518" />
+      <entry key="D1" value="78.75280789258812" />
+      <entry key="W1" value="84.06940067256082" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.012603778174355826" />
-      <entry key="MS500" value="0.43166592984238494" />
-      <entry key="S2" value="1.1518002674002321" />
-      <entry key="S5" value="1.5864620665612184" />
-      <entry key="S10" value="1.9137008891726257" />
-      <entry key="S30" value="5.0622922106270485" />
-      <entry key="S60" value="14.15094150844205" />
-      <entry key="M2" value="30.50864589996182" />
-      <entry key="M5" value="55.750278672126214" />
-      <entry key="M10" value="77.82125669202281" />
-      <entry key="M15" value="95.37482426021259" />
-      <entry key="M30" value="139.61661465675832" />
-      <entry key="H1" value="205.40092201707742" />
-      <entry key="H2" value="282.8818562006156" />
-      <entry key="H4" value="349.6503881161909" />
-      <entry key="D1" value="430.9049398395534" />
-      <entry key="W1" value="448.0374103648509" />
+      <entry key="MS100" value="1.4511895741740026" />
+      <entry key="MS500" value="2.5139408545851865" />
+      <entry key="S2" value="4.903120032359427" />
+      <entry key="S5" value="7.964247325725365" />
+      <entry key="S10" value="11.706645206990787" />
+      <entry key="S30" value="16.889342156678776" />
+      <entry key="S60" value="18.780133547177755" />
+      <entry key="M2" value="19.884722399099182" />
+      <entry key="M5" value="23.798566388936514" />
+      <entry key="M10" value="40.516083882842494" />
+      <entry key="M15" value="60.171903290289656" />
+      <entry key="M30" value="116.6862404009287" />
+      <entry key="H1" value="224.07000189739716" />
+      <entry key="H2" value="390.7166721131347" />
+      <entry key="H4" value="569.9944586580117" />
+      <entry key="D1" value="833.8872662370837" />
+      <entry key="W1" value="896.0243061697257" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,6 +117,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.core.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -140,6 +137,33 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Hill Sipher" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (Hill Sipher)" />
+      <option name="WORKING_DIRECTORY" value="D:\Projects\Hill Sipher" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
