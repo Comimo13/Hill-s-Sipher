@@ -1,3 +1,5 @@
+import numpy as np
+
 def plaintext(language):
     text_input = input('Enter text: ')
 
@@ -9,4 +11,4 @@ def plaintext(language):
         elif letter in language.s:
             P.append(language.s.index(letter))
 
-    return P
+    return np.array(P)

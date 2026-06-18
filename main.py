@@ -1,4 +1,8 @@
 """This is Hill's Sipher based on NumPy. Currently I'm learning NumPy as well don't judge strictly"""
-from Core import Encryption
+from dbm import error
 
-Encryption.encrypt()
+from Core import Encryption
+try:
+    Encryption.encrypt()
+except Exception as e:
+    print('fatal error: ',e)
